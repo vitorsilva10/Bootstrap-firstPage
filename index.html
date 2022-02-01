@@ -9,7 +9,7 @@
   <title>Bootstrap First Page</title>
 </head>
 
-<body>
+<body class="container-sm">
 
   <div class="b-example-divider"></div>
 
@@ -17,7 +17,7 @@
     <header
       class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-        <img src="img/logo.png" alt="" width="40px">
+        <img src="img/logo.png" alt="" width="60px">
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -30,24 +30,43 @@
     </header>
   </div>
 
-  <div class="container-sm">
-    <div class="row align-items-center">
-        <div class="col-6">
-          <h1>The Future of Ad Tracking Software</h1>
-          <p>Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="col-6">
-          <img class="img-fluid" src="img/backgroud.gif" alt="">
-        </div>
+  <div class="container shadow-sm p-3 mb-5 bg-white rounded">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-5">
+        <h1>The Future of Ad Tracking Software</h1>
+        <p>Lorem ipsum dolor sit,
+          amet consectetur adipisicing elit.</p>
       </div>
+      <div class="col-5">
+        <img class="img-fluid" src="img/backgroud.gif" alt="">
+      </div>
+    </div>
   </div>
+
+
+  <div class="container-sm shadow-sm p-3 mb-5 bg-white rounded">
+    <div class="row align-items-center">
+
+      <div class="col-5">
+        <img class="img-fluid" src="img/bg.gif" alt="" width="500px">
+      </div>
+
+      <div class="col-5">
+        <h1>The Future of Ad Tracking Software</h1>
+        <p>Lorem ipsum dolor sit,
+          amet consectetur adipisicing elit.</p>
+      </div>
+
+    </div>
+  </div>
+
+
 
 
   <div class="container-sm">
     <div class="row d-flex justify-content-center">
 
-      <div class="card m-sm-1 col-4 align-items-center shadow p-4 mb-4 bg-white">
+      <div class="card col-lg-3 align-items-center shadow p-3 m-2 bg-white">
         <img src="img/card-img/code.png" style="width: 100px;" alt="">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -56,8 +75,7 @@
       </div>
 
 
-
-      <div class="card m-sm-1 col-4 align-items-center shadow p-4 mb-4 bg-white">
+      <div class="card col-lg-3 align-items-center shadow p-3 m-2 bg-white">
         <img src="img/card-img/code.png" style="width: 100px;" alt="">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -65,16 +83,7 @@
         </div>
       </div>
 
-      <div class="card m-sm-1 col-4 align-items-center shadow p-4 mb-4 bg-white">
-        <img src="img/card-img/code.png" style="width: 100px;" alt="">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-        </div>
-      </div>
-
-
-      <div class="card m-sm-1 col-4 align-items-center shadow p-4 mb-4 bg-white">
+      <div class="card col-lg-3 align-items-center shadow p-3 m-2 bg-white">
         <img src="img/card-img/code.png" style="width: 100px;" alt="">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -83,8 +92,7 @@
       </div>
 
 
-
-      <div class="card m-sm-1 col-4 align-items-center shadow p-4 mb-4 bg-white">
+      <div class="card col-lg-3 align-items-center shadow p-3 m-2 bg-white">
         <img src="img/card-img/code.png" style="width: 100px;" alt="">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -92,7 +100,8 @@
         </div>
       </div>
 
-      <div class="card m-sm-1 col-sm-4 align-items-center shadow p-4 mb-4 bg-white">
+
+      <div class="card col-lg-3 align-items-center shadow p-3 m-2 bg-white">
         <img src="img/card-img/code.png" style="width: 100px;" alt="">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -100,10 +109,52 @@
         </div>
       </div>
 
+      <div class="card col-lg-3 align-items-center shadow p-3 m-2 bg-white">
+        <img src="img/card-img/code.png" style="width: 100px;" alt="">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </div>
+
+      <div class="container-sm">
+
+        <div class="row d-flex justify-content-lg-around">
+
+          <div class="col-lg-5 mt-3">
+            <img src="contact us.svg" alt="" width="550px">
+          </div>
+
+          <div class="col-lg-4 p-4">
+            <form>
+              <div class="form-grup">
+                <label for="">Nome:</label>
+                <input type="text" class="form-control">
+                <small class="form-text text-muted"></small>
+              </div>
+
+              <div class="form-group">
+                <label>E-mail:</label>
+                <input type="email" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label>Telefone:</label>
+                <input type="tel" class="form-control">
+              </div>
+
+              <button type="submit" class="btn btn-primary mt-2 float-md-end">Submit</button>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
     </div>
 
   </div>
 
+  
 
 
 
